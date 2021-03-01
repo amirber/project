@@ -1,0 +1,86 @@
+.landing-page {
+  padding: 1.5rem 2rem;
+  border-radius: 0;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+.field {
+  padding: 10px 0;
+}
+
+.field > label {
+  margin-bottom: 10px;
+  text-align: left;
+  display: block;
+}
+
+.add-btn {
+  background-color: #1068c7;
+  color: #ffff;
+  margin-left: 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border:1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: #333;
+  margin-left: 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border:1px solid #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+
+.input {
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #d6dde3;
+  border-radius: 4px;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 10px;
+  background: #fff;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+  transition-property: color, background-color, border;
+}
+
+.input:focus {
+   outline: none;
+   border-color: #1b67db;
+}
+
+.actions {
+  padding: 20px 0;
+}

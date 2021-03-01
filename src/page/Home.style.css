@@ -1,0 +1,96 @@
+.landing-page {
+  padding: 1.5rem 2rem;
+  border-radius: 0;
+  text-align: center;
+}
+.img-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.person-img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+.delete-btn {
+  background-color:#c7101c;
+  color: #ffff;
+  margin-left: 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border:1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+
+}
+
+.add-btn {
+  background-color: #1068c7;
+  color: #ffff;
+  margin-left: 5px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border:1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.edit-btn {
+  background-color:#046b06;
+  color: #ffff;
+  margin-left: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border:1px solid;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #d6dde3;
+  border-radius: 4px;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 10px;
+  background: #fff;
+  /*color: $text-color;*/
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+  transition-property: color, background-color, border;
+}
+
+.input:focus {
+   outline: none;
+   border-color: #1b67db;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search > span {
+  padding: 10px;
+}
